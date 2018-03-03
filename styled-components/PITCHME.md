@@ -6,13 +6,13 @@
 
 Why have we chosen styled-components, and why is it better than how we use the styleguide presently?
 
----
++++
 
 Why have we chosen styled-components, and why is it better than how we use the styleguide presently?
 
 * Very much smaller and cleaner, eg:
 
----
++++
 
 Why have we chosen styled-components, and why is it better than how we use the styleguide presently?
 
