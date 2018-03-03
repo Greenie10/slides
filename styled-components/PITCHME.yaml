@@ -11,3 +11,4 @@ logo : assets/image/logo.png
 transition : none
 published : true
 footnote : "GitPitch [ White CodeMax ] Presentation Template"
+vertical-center: false
