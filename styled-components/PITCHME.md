@@ -6,13 +6,13 @@
 
 Why have we chosen styled-components, and why is it better than how we use the styleguide presently?
 
-+++
+---
 
 Why have we chosen styled-components, and why is it better than how we use the styleguide presently?
 
 * Very much smaller and cleaner, eg:
 
-+++
+---
 
 Why have we chosen styled-components, and why is it better than how we use the styleguide presently?
 
@@ -36,7 +36,11 @@ eg using a ternary:
 ```jsx
 color: ${props => props.panic ? ‘red' : ‘black'}
 or using logical operators (confusingly && here meaning xxx):
-margin-top: ${props => (props.huge && ‘4em’) || (props.medium && ‘2em’) || (props.small && '0.5em') }
+margin-top: ${props => 
+  (props.huge && ‘4em’) || 
+  (props.medium && ‘2em’) || 
+  (props.small && '0.5em') 
+  }
 ```
 
 ---
