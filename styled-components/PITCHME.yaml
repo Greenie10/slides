@@ -6,8 +6,10 @@
 #
 theme : sky
 theme-override : assets/css/PITCHME.codemax.css
-logo : assets/image/logo.png
+logo : assets/image/Greenie10.jpg
+# logo : assets/image/logo.png
 highlight : atom-one-dark
 transition : none
 published : true
-footnote : "GitPitch [ Sunkist CodeMax ] Presentation Template"
+footnote : "styled-components: what &amp; why"
+# footnote : "GitPitch [ Sunkist CodeMax ] Presentation Template"
