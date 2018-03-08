@@ -5,6 +5,7 @@
 # https://github.com/gitpitch/gitpitch/wiki/Slideshow-Settings
 #
 theme : sky
+layout : center
 theme-override : assets/css/PITCHME.codemax.css
 logo : assets/image/Greenie10.jpg
 # logo : assets/image/logo.png
