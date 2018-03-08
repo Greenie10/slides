@@ -6,21 +6,27 @@
 
 ---
 
-What's good about `styled-components`?
+### What's good about `styled-components`?
 
-* Very much smaller and cleaner |
-  * Vanilla CSS syntax |
-  * Can use functions with props to pass modifiers to components |
+* Much smaller and cleaner |
+* Uses vanilla CSS syntax |
+* Can pass `props` as modifiers |
 
 ---
 
-* Can use functions with props to pass modifiers to components.
+### Passing `props` as modifiers
 
-eg using a ternary:
+#### Using a ternary to pass a modifier
 
 ```jsx
 color: ${props => props.panic ? ‘red' : ‘black'}
-or using logical operators (confusingly && here meaning xxx):
+```
+
+#### Using logical operators
+
+(confusingly, `&&` here means 'give the following value to `margin-top`')
+
+```jsx
 margin-top: ${props =>
   (props.huge && ‘4em’) ||
   (props.medium && ‘2em’) ||
@@ -30,8 +36,7 @@ margin-top: ${props =>
 
 ---
 
-* Named elements, instead of div, div, div, you get `<Bacon>`
-* Use of props to pass modifiers at writing time
+### Named elements, instead of div, div, div, you get... `<Bacon>`
 
 ```jsx
 <Bacon sandwich>So nice</Bacon>
